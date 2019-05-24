@@ -2,4 +2,7 @@
    echo "Hola mundo\n";
    echo "Hace un buen día para estudiar TIC\n";
    echo "Mi nombre es Ángel y hoy tengo un buen dia\n";
-?>
+   $K=" Hoy es un buen día";
+   $P="para ir a la graduación";
+   echo $K."\n".$P."\n";
+   ?>
