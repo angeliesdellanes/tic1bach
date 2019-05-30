@@ -1,6 +1,10 @@
 <?php
-for($a=2;$a<70;$a=$a+2){
-if($a/3!=floor($a/3))
-{echo $a."_";}
+for($a=1;$a<1000;$a=$a+2)
+{
+    if(($a/5!=floor($a/5))&&($a/7!=floor($a/7))&&($a/3!=floor($a/3)))
+     {
+        echo $a."_";
+     }
+    
 }
 ?>
